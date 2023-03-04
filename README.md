@@ -1,7 +1,8 @@
 # Haversine
 [![](https://github.com/loqo71la/haversine/actions/workflows/coverage.yml/badge.svg)](https://github.com/loqo71la/haversine/actions/workflows/coverage.yml)
+[![](https://codecov.io/gh/loqo71la/haversine/branch/main/graph/badge.svg?token=T0AWQR4JWV)](https://codecov.io/gh/loqo71la/haversine)
 
-Implements the Haversine formula to calculate the distance between two points on a sphere
+Implements the Haversine formula to calculate the distance between two points on a sphere.
 
 ![](images/circle%20distance.png)
 
