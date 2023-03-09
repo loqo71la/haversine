@@ -22,8 +22,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Install dependencies
+        run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
       - name: Generate coverage report
-        run: ./gradlew test
+        run: mvn -B test
       
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3

@@ -1,8 +1,22 @@
 package dev.loqo71la.haversine;
 
+/**
+ * Represents a unit of measure.
+ */
 public enum Unit {
+    /**
+     * Radius of curvature in Kilometers.
+     */
     Kilometers(6371),
+
+    /**
+     * Radius of curvature in Meters.
+     */
     Meters(6378137),
+
+    /**
+     * Radius of curvature in Miles.
+     */
     Miles(3960);
 
     /**

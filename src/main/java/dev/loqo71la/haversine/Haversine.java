@@ -1,6 +1,9 @@
 package dev.loqo71la.haversine;
 
-public class Haversine {
+/**
+ * Utility class to use Haversine formula.
+ */
+public final class Haversine {
 
     /**
      * Store the value of number 2.

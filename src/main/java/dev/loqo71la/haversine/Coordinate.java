@@ -1,5 +1,8 @@
 package dev.loqo71la.haversine;
 
+/**
+ * Represents a radian coordinate that stores latitude and longitude
+ */
 public class Coordinate {
 
     /**
